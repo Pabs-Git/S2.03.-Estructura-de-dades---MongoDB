@@ -1,0 +1,132 @@
+{
+  "suppliers": [
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e1",  
+      "name": "Optica VisionPlus",
+      "address": {
+        "street": "Avinguda del Paral·lel",
+        "number": "123",
+        "floor": "2",
+        "door": "B",
+        "city": "Barcelona",
+        "postal_code": "08015",
+        "country": "Spain"
+      },
+      "phone": "934567890",
+      "fax": "934567891",
+      "nif": "A12345678"
+    },
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e2",  
+      "name": "Elegant Frames S.L.",
+      "address": {
+        "street": "Carrer de València",
+        "number": "45",
+        "floor": "1",
+        "door": "A",
+        "city": "Barcelona",
+        "postal_code": "08011",
+        "country": "Spain"
+      },
+      "phone": "932345678",
+      "fax": "932345679",
+      "nif": "B87654321"
+    }
+  ],
+  "glasses": [
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e3",  
+      "prescription": {
+        "right": "2.0",
+        "left": "2.25"
+      },
+      "frame_type": "metallic",
+      "frame_color": "black",
+      "lens_color": {
+        "right": "gradient",
+        "left": "gradient"
+      },
+      "price": 150.0,
+      "supplier_id": "64f8a1b2e4b0a1a2b3c4d5e1"  
+    },
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e4",  
+      "brand": "Oakley",
+      "prescription": {
+        "right": "1.5",
+        "left": "1.75"
+      },
+      "frame_type": "floating",
+      "frame_color": "blue",
+      "lens_color": {
+        "right": "transparent",
+        "left": "transparent"
+      },
+      "price": 180.0,
+      "supplier_id": "64f8a1b2e4b0a1a2b3c4d5e2"  
+    }
+  ],
+  "customers": [
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e5",  
+      "name": "Carlos Martínez",
+      "address": {
+        "street": "Calle Gran Vía",
+        "number": "28",
+        "city": "Madrid",
+        "postal_code": "28013",
+        "country": "Spain"
+      },
+      "phone": "911234567",
+      "email": "carlos.martinez@example.com",
+      "registration_date": "2023-05-10T10:15:00.000Z",
+      "recommended_by": null
+    },
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e6",  
+      "name": "Ana Sánchez",
+      "address": {
+        "street": "Carrer de Mallorca",
+        "number": "300",
+        "city": "Barcelona",
+        "postal_code": "08037",
+        "country": "Spain"
+      },
+      "phone": "932345678",
+      "email": "ana.sanchez@example.com",
+      "registration_date": "2023-06-15T12:30:00.000Z",
+      "recommended_by": "64f8a1b2e4b0a1a2b3c4d5e5"  
+    }
+  ],
+  "employees": [
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e7",  
+      "name": "Laura Gómez",
+      "phone": "934567890",
+      "email": "laura.gomez@opticacompany.com",
+      "hire_date": "2022-01-15T00:00:00.000Z"
+    },
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e8",  
+      "name": "Javier Ruiz",
+      "phone": "932345678",
+      "email": "javier.ruiz@opticacompany.com",
+      "hire_date": "2021-03-20T00:00:00.000Z"
+    }
+  ],
+  "sales": [
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5e9",  
+      "customer_id": "64f8a1b2e4b0a1a2b3c4d5e5",  
+      "employee_id": "64f8a1b2e4b0a1a2b3c4d5e7",  
+      "sale_date": "2023-10-01T14:30:00.000Z"
+    },
+    {
+      "_id": "64f8a1b2e4b0a1a2b3c4d5ea", 
+      "customer_id": "64f8a1b2e4b0a1a2b3c4d5e6",  
+      "employee_id": "64f8a1b2e4b0a1a2b3c4d5e8",  
+      "glasses_id": "64f8a1b2e4b0a1a2b3c4d5e4",  
+      "sale_date": "2023-10-02T16:45:00.000Z"
+    }
+  ]
+}
