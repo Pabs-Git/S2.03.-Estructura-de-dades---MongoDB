@@ -1,0 +1,68 @@
+{
+  "glasses": [
+    {
+      "_id": "1",
+      "brand": "FunkyFrames",
+      "prescription": {
+        "right": "3.0",
+        "left": "2.75"
+      },
+      "frame_type": "triangular",
+      "frame_color": "galaxy",
+      "lens_color": {
+        "right": "sparkling purple",
+        "left": "sparkling purple"
+      },
+      "price": 299.99,
+      "supplier": {
+        "name": "CrazySpecs Ltd.",
+        "nif": "NIF987654321",
+        "contact": {
+          "phone": "901234567",
+          "fax": "901234568"
+        },
+        "address": {
+          "street": "Waffle Boulevard",
+          "number": "88",
+          "floor": "7",
+          "door": "D",
+          "city": "Dessertopolis",
+          "postal_code": "99999",
+          "country": "Candyland"
+        }
+      }
+    },
+    {
+      "_id": "2",
+      "brand": "UltraGoggles",
+      "prescription": {
+        "right": "1.0",
+        "left": "1.25"
+      },
+      "frame_type": "hexagonal",
+      "frame_color": "matte black",
+      "lens_color": {
+        "right": "polarized green",
+        "left": "polarized green"
+      },
+      "price": 349.99,
+      "supplier": {
+        "name": "Zebra Optics Inc.",
+        "nif": "NIF123456789",
+        "contact": {
+          "phone": "902345678",
+          "fax": "902345679"
+        },
+        "address": {
+          "street": "Coconut Lane",
+          "number": "123",
+          "floor": "5",
+          "door": "Z",
+          "city": "Tropical City",
+          "postal_code": "55555",
+          "country": "Zebraland"
+        }
+      }
+    }
+  ]
+}

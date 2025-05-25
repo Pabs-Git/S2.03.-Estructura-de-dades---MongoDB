@@ -1,0 +1,70 @@
+{
+  "sales": [
+    {
+      "_id": "1",
+      "customer": {
+        "name": "Elvis Pretzel",
+        "email": "elvis.pretzel@grandecheese.com",
+        "phone": "911987654",
+        "address": {
+          "street": "Bacon Street",
+          "number": "42",
+          "city": "Snackville",
+          "postal_code": "12345",
+          "country": "Neverland"
+        }
+      },
+      "employee": {
+        "name": "Samantha Pickle",
+        "email": "samantha.pickle@opticacompany.com",
+        "phone": "934567890"
+      },
+      "glasses": {
+        "brand": "WackyVision",
+        "frame_type": "square",
+        "frame_color": "rainbow",
+        "lens_color": {
+          "right": "tinted blue",
+          "left": "tinted red"
+        },
+        "price": 199.99
+      },
+      "sale_date": "2023-11-01T14:30:00.000Z"
+    },
+    {
+      "_id": "2",
+      "customer": {
+        "name": "Luna Noodle",
+        "email": "luna.noodle@pastaheaven.org",
+        "phone": "932345678",
+        "address": {
+          "street": "Lasagna Avenue",
+          "number": "108",
+          "city": "Carb City",
+          "postal_code": "54321",
+          "country": "Italyland"
+        },
+        "recommended_by": {
+          "name": "Elvis Pretzel",
+          "email": "elvis.pretzel@grandecheese.com"
+        }
+      },
+      "employee": {
+        "name": "Bob Burrito",
+        "email": "bob.burrito@opticacompany.com",
+        "phone": "932345679"
+      },
+      "glasses": {
+        "brand": "RetroShades",
+        "frame_type": "round",
+        "frame_color": "neon green",
+        "lens_color": {
+          "right": "mirrored silver",
+          "left": "mirrored silver"
+        },
+        "price": 159.99
+      },
+      "sale_date": "2023-11-02T16:45:00.000Z"
+    }
+  ]
+}
